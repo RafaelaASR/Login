@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../imagens/cruiser-2up-l.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: black;*/
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+ 
+}
+
+img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+main{
+    height: 700px;
+}
+
+.cadastro-loginop{
+    display: flex;
+    color: #000000;
+    position: relative;
+    top: 120px;
+    background-color: #000000b0;
+    border: solid 2px #00000070;
+    border-radius: 10px;
+    text-align: center;
+    height: 500px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cadastro{
+    width: 500px;
+    height: 500px;
+    border-radius: 8px 0 0 8px;
+    padding: 50px;
+}
+
+.cadastro h2{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.cadastro a{
+    color: #000000;
+}
+
+.cadastro button{
+    background-color: #fa6600;
+    color: #ffffff;
+    border-color: #fa6600;
+    margin-top: 50px;
+}
+
+.cadastro input{
+    margin-top: 30px;
+}
+
+.input-group-text{
+    background-color: transparent;
+    color: #ffffff;
+    margin-top: 30px;
+    border: none;
+    border-bottom: solid 2px #fa6600;
+    border-radius: 0;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+#op-login{
+    border-color: green;
+    color: #ffffff;
+    left: 2px;
+    bottom: 2px;
+    width: 500px;
+    padding: 50px;
+}
+
+#op-login p{
+    margin-bottom: 35px;
+}
+
+
+#op-login button{
+    margin-top: 20px;
+}
+
+.option{
+    background-color: #fa6600;
+    color: #ffffff;
+    height: 500px;
+    border-radius: 0 8px  8px 0;
+    border-color: #fa6600;
+    position: relative;
+    padding: 50px;
+}
+
+.option h2{
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.login-cadastroop{
+    display: flex;
+    position: relative;
+    top: -380px;
+    color: #000000;    
+    background-color: #000000b0;
+    border: solid 2px #00000070;
+    border-radius: 10px;
+    text-align: center;
+    height: 500px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#op-cadastro{
+    padding: 50px;
+    border-radius: 8px 0 0 8px;
+    position: relative;
+    width: 500px;
+    right: 2px;
+    bottom: 2px;
+}
+
+#op-cadastro p{
+    margin-top: 30px;
+}
+
+#op-cadastro button{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+.login{
+    color: #ffffff;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 0 8px  8px 0;
+}
+
+.login a{
+    color: white;
+}
+
+.login h2{
+    margin-top: 35px;
+}
+
+.login p{
+    margin-top: 20px;
+}
+
+.login button{
+    background-color: #fa6600;
+    color: #ffffff;
+    border: none;
+    margin-top: 50px;
+}
+
+.login input{
+    margin-top: 30px;
+}
+
+button:active{
+    border-color: #fa6600;
+}
+
+input{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    outline: 0;
+    text-align: left;
+}
+
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #fa6600;
+    border-radius: 0;
+}
+
+.form-control:active{
+    background-color: transparent;
+}
+
+.login-cadastroop {
+    visibility: visible;
+}
+
+.cadastro-loginop {
+    visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-20px);
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 2s ease;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+    transition: opacity 0.2s ease, transform 2s ease;
+}
