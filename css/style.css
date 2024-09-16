@@ -65,7 +65,7 @@ main{
 .cadastro button{
     background-color: #fa6600;
     color: #ffffff;
-    border-color: #fa6600;
+    border: none;
     margin-top: 50px;
 }
 
